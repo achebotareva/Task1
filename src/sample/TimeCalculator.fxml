@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8.0.181" xmlns:fx="http://javafx.com/fxml/1">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="239.0" prefWidth="647.0" VBox.vgrow="ALWAYS">
+         <children>
+            <Button fx:id="calculate" layoutX="320.0" layoutY="284.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="96.0" text="Calculate" />
+            <Button fx:id="clean" layoutX="424.0" layoutY="283.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="96.0" text="Clean" />
+            <Button fx:id="exit" layoutX="529.0" layoutY="283.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="96.0" text="Exit" />
+            <TextArea fx:id="result_field" layoutX="26.0" layoutY="103.0" prefHeight="162.0" prefWidth="598.0" />
+            <Text fx:id="timeLabel" layoutX="28.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter first Data in format h:m:s " wrappingWidth="204.00006103515625" />
+            <TextField fx:id="first_field" layoutX="261.0" layoutY="17.0" prefHeight="6.0" prefWidth="362.0" />
+            <TextField fx:id="second_field" layoutX="261.0" layoutY="62.0" prefHeight="26.0" prefWidth="362.0" />
+            <Text fx:id="timeLabel1" layoutX="30.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter second Data  " wrappingWidth="204.00006103515625" />
+         </children>
+    </AnchorPane>
+  </children>
+</VBox>
